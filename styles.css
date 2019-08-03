@@ -1,14 +1,39 @@
-li {
-    display: block;
-    padding: 8px;
+li.personalContact {
+    display: inline;
+    padding-left: 10%;
+    padding-inline: 5%;
     text-decoration: none;
-    float: left;
-  }
-
-div  {
-    background-color: #1d8267;
+    color: antiquewhite;
     
+  }
+td.pho{
+    padding-left: 15%;
+}
 
 
-
+div.header-data {
+    background-color: #1d8267;
+}
+body {
+    padding-left: 15%;
+    padding-right: 15%;
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-family: 'Oswald', sans-serif;
+    padding-left: 15%;
+    color: antiquewhite;
+}
+h3 {
+    color: #1d8267;
+}
+p.major {
+    font-family: 'Oswald', sans-serif;
+    padding-left: 15%;
+    color: antiquewhite;
+}
+img.profile {
+    float: left;
+    position:absolute;
+    z-index: 1;
 }
