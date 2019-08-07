@@ -15,12 +15,10 @@ function MostrarOcultar( ref )
   
   if (nodoContraible.style.display =='none') 
   { 
-     xNodoDelEnlace.innerHTML = ' - Ocultar' ;
      nodoContraible.style.display ="block";
   } 
   else 
   { 
-    xNodoDelEnlace.innerHTML = ' + Mostrar '; 
     nodoContraible.style.display ='none'; 
   } 
 } 
